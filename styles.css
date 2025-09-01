@@ -61,6 +61,15 @@ body {
     border-color: white;
 }
 
+.button:hover {
+    filter: brightness(30%);
+}
+
+.button:active {
+    filter: brightness(30%);
+    transform: translateY(1px);
+}
+
 #b-tbd1, #b-tbd2 {
     border: 0;
 }
